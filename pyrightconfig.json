@@ -1,0 +1,10 @@
+{
+    "reportMissingImports": false,
+    "reportPrivateImportUsage": false,
+    "executionEnvironments": [
+        {
+            "root": "src",
+            "pythonVersion": "3.8"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+typing = "pyright src"
+linting = "pylint src -j 4 --reports=y"
+tests = "py.test tests -s --cov=src --cov-report=term-missing --cov-fail-under 85"
+
+[packages]
+transformers = "==4.22.1"
+datasets = "==1.18.3"
+bert-score = "*"
+pyrouge = "*"
+numpy = "*"
+pandas = "*"
+accelerate = "*"
+protobuf = "*"
+rouge-score = "*"
+nltk = "*"
+py7zr = "*"
+jsonlines = "*"
+sentencepiece = "*"
+torch = "*"
+aiohttp = "*"
+alive-progress = "*"
+hyperopt = "*"
+ray = "*"
+tabulate = "*"
+typing_extensions = "*"
+wandb = "*"
+async-timeout = "*"
+click = "*"
+
+[dev-packages]
+codecov = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+sphinx = "*"
+types-filelock = "*"
+pyright = "*"
+black = "*"
+wandb = "*"
+
+[pipenv]
+allow_prereleases = true
