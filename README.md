@@ -18,7 +18,7 @@ pip install pipenv
 
 # Clone this repo and change directory
 git clone git@github.com:FKIRSTE/GEM_emnlp2022-TOASTS.git
-cd SummER
+cd GEM_emnlp2022-TOASTS
 
 # Create python environment
 pip install pipenv
